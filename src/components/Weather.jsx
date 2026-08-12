@@ -1,9 +1,9 @@
 function Weather() {
   return (
-    <div className="card mb-3" style={{ background: "rgb(134, 127, 127)" }}>
+    <div className="card mb-3" style={{ background: "rgb(77, 73, 92)" }}>
       <div className="row g-0">
         <div className="col-md-4 text-center">
-          <h5 className="m-3" style={{ color: "rgb(55, 5, 95)" }}>
+          <h5 className="m-3" style={{ color: "rgb(126, 176, 245)" }}>
             WEATHER
           </h5>
           <div className="mt-5 d-flex align-items-center justify-content-center">

@@ -4,7 +4,7 @@ function Card() {
       <div className="col-4 ">
         <div
           className="card border-0 shadow"
-          style={{ background: "rgb(68, 66, 67)" }}
+          style={{ background: "rgb(50, 48, 73)" }}
         >
           <div className="card-body">
             <h5 className="card-title text-white">Active Camera</h5>
@@ -15,7 +15,7 @@ function Card() {
       <div className="col-4">
         <div
           className="card border-0 shadow"
-          style={{ background: "rgb(68, 66, 67)" }}
+          style={{ background: "rgb(50, 48, 73)" }}
         >
           <div className="card-body">
             <h5 className="card-title text-white">Detection Today</h5>
@@ -28,7 +28,7 @@ function Card() {
       <div className="col-4">
         <div
           className="card border-0 shadow"
-          style={{ background: "rgb(68, 66, 67)" }}
+          style={{ background: "rgb(50, 48, 73)" }}
         >
           <div className="card-body">
             <h5 className="card-title text-white">Active Alerts</h5>

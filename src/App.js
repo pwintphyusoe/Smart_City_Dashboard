@@ -11,7 +11,7 @@ import FloodPage from "./components/FloodPage.jsx";
 
 function App() {
   return (
-    <div className="container-fluid" style={{ background: "rgb(57, 57, 57)" }}>
+    <div className="container-fluid" style={{ background: "#22252f" }}>
       <div className="row">
         <div className="col-2">
           <SideTab />

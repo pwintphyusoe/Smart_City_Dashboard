@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div className="row mb-2">
-      <nav className="navbar border border-bottom border-start border-dark">
+      <nav className="navbar border border-bottom border-start border-secondary">
         <div className="container-fluid">
           <p className="fs-4 fw-bold" style={{ color: "rgb(143, 38, 228)" }}>
             <i className="fa-solid fa-building-columns fa-2x"></i>Yatanarpon
