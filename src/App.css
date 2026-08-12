@@ -1,0 +1,40 @@
+.graphContainer {
+  width: 550px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.chart {
+  height: 220px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  /* border-left: 2px solid black;
+  border-bottom: 2px solid black; */
+  padding: 10px;
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar {
+  width: 45px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 5px 5px 0 0;
+}
+
+.bar span {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.bar-container p {
+  margin-top: 5px;
+}
