@@ -43,6 +43,7 @@ body {
 }
 
 .video-frame {
+  position: relative;
   height: 220px;
   border: 1px solid #2a2d38;
   background: #161922;
@@ -53,6 +54,16 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.camera-error {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  text-align: center;
+  color: #ffb4b4;
 }
 
 .car-count {
