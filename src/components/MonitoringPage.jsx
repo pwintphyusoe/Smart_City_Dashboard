@@ -39,7 +39,7 @@ function MonitoringPage() {
     <div className="dashboard">
       {/* Main Live Stream */}
       <div className="live-stream-card">
-        <div className="live-header">
+        <div className="live-header text-white">
           {/* <span className="live-dot"></span> */}
           LIVE STREAM
         </div>

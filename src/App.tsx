@@ -4,7 +4,6 @@ import Header from "./components/Header.jsx";
 import SideTab from "./components/SideTab.jsx";
 import MonitoringPage from "./components/MonitoringPage.jsx";
 import MainPage from "./components/MainPage.jsx";
-import MonthlyAlert from "./components/MonthlyAlert.jsx";
 import TrafficPage from "./components/TrafficPage.jsx";
 import AlertPage from "./components/AlertPage.jsx";
 import FloodPage from "./components/FloodPage.jsx";
