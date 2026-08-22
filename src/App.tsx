@@ -10,9 +10,9 @@ import FloodPage from "./components/FloodPage.jsx";
 
 function App() {
   return (
-    <div className="container-fluid" style={{ background: "#22252f" }}>
-      <div className="row">
-        <div className="col-2">
+    <div className="container-fluid app-shell">
+      <div className="row app-layout">
+        <div className="col-2 sidebar-column">
           <SideTab />
         </div>
         <div className="col-10">

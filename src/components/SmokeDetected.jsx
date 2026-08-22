@@ -3,7 +3,7 @@ function SmokeDetected() {
     <div className="col card mb-2" style={{ background: "rgb(77, 73, 92)" }}>
       <div className="d-flex p-4 row">
         <div className="px-2 col-2 my-auto">
-          <i class="fa-solid fa-fire text-white fa-2x"></i>
+          <i className="fa-solid fa-fire text-white fa-2x"></i>
         </div>
         <div className="ps-3 fw-bold col-7">
           <p className="text-white fs-5">Smoke Detectd</p>

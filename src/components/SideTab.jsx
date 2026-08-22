@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function SideTab() {
   return (
     <div
-      className="border border-end border-bottom-0 border-secondary"
+      className="side-tab border border-end border-bottom-0 border-secondary flex-fill"
       style={{ background: "#22252f" }}
     >
       <div className="d-flex align-items-center justify-content-center min-vh-100 mx-auto">
@@ -14,7 +14,7 @@ function SideTab() {
               className="list-group-item list-group-item-action border-0 mb-4 py-4 text-white"
               style={{ width: "200px", background: "#22252f" }}
             >
-              <i className="fa-solid fa-house"></i>Dashboard
+              <i className="fa-solid fa-house fa-2x"></i>Dashboard
             </button>
           </NavLink>
           <NavLink to="/traffic">
@@ -23,7 +23,7 @@ function SideTab() {
               className="list-group-item list-group-item-action border-0 mb-4 py-4 text-white"
               style={{ width: "200px", background: "#22252f" }}
             >
-              <i className="fa-solid fa-traffic-light"></i>Traffic
+              <i className="fa-solid fa-traffic-light fa-2x"></i>Traffic
             </button>
           </NavLink>
           <NavLink to="/monitoring">
@@ -32,7 +32,7 @@ function SideTab() {
               className="list-group-item list-group-item-action border-0 mb-4 py-4 text-white"
               style={{ width: "200px", background: "#22252f" }}
             >
-              <i className="fa-solid fa-camera"></i>Monitoring
+              <i className="fa-solid fa-camera fa-2x"></i>Monitoring
             </button>
           </NavLink>
           <NavLink to="/flood">
@@ -41,7 +41,7 @@ function SideTab() {
               className="list-group-item list-group-item-action border-0 mb-4 py-4 text-white"
               style={{ width: "200px", background: "#22252f" }}
             >
-              <i className="fa-solid fa-house-flood-water"></i>Flood
+              <i className="fa-solid fa-house-flood-water fa-2x"></i>Flood
             </button>
           </NavLink>
           <NavLink to="/alert">
@@ -50,7 +50,7 @@ function SideTab() {
               className="list-group-item list-group-item-action border-0 mb-4 py-4 text-white"
               style={{ width: "200px", background: "#22252f" }}
             >
-              <i className="fa-solid fa-house-flood-water"></i>Flood
+              <i className="fa-solid fa-house-flood-water fa-2x"></i>Flood
             </button>
           </NavLink>
         </div>

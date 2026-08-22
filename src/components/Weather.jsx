@@ -13,12 +13,12 @@ function Weather() {
         <div className="col-md-8">
           <div className="card-body">
             <h5 className="card-title text-white">18 C</h5>
-            <p className="card-text">
+            <div className="card-text">
               <p className="text-white">Light Rain</p>
               <p className="text-white">Humidity : 50%</p>
               <p className="text-white">WInd : 8 km/h</p>
               <p className="text-white">Feels like : 18 C</p>
-            </p>
+            </div>
           </div>
         </div>
       </div>

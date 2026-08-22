@@ -1,3 +1,21 @@
+.app-shell {
+  min-height: 100vh;
+  background: #22252f;
+}
+
+.app-layout {
+  min-height: 100vh;
+  align-items: stretch;
+}
+
+.sidebar-column {
+  display: flex;
+}
+
+.side-tab {
+  min-height: 100%;
+}
+
 .graphContainer {
   width: 550px;
   margin: 20px auto;
